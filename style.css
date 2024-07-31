@@ -65,12 +65,15 @@ a {
 }
 
 .link {
+    background-color: :
     padding: 1rem;
     border-radius: 20px;
     width: 80%;
     max-width: 50rem;
+    background-color: #31363F;
+    border: 2px solid #31363F;
+     justify-content: space-between;
 }
-
 
 .Text {
     margin-top: 5px;
