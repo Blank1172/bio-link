@@ -64,15 +64,18 @@ a {
     margin-top: 0.5rem;
 }
 
+
 .link {
-    background-color: :
+    margin-left: 65px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #31363F;
     padding: 1rem;
     border-radius: 20px;
     width: 80%;
     max-width: 50rem;
-    background-color: #31363F;
+    box-shadow: 7px 8px 0 #151515;
     border: 2px solid #31363F;
-     justify-content: space-between;
 }
 
 .Text {
