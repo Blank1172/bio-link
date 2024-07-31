@@ -35,7 +35,7 @@
 
 ul {
     width: 80%;
-    max-width: 20rem;
+    max-width: 40rem;
 }
 
 ul li {
@@ -47,7 +47,7 @@ ul li:not(:last-child) {
 }
 
 .medsos {
-    margin-left: 6px;
+    margin-left: 3px;
     font-size: 1.5rem;
     text-align: center;
 }
@@ -64,8 +64,8 @@ a {
     margin-top: 0.5rem;
 }
 
-
 .link {
+    margin-right: auto;
     margin-left: auto;
     display: flex;
     justify-content: space-between;
@@ -85,7 +85,7 @@ a {
 
 .arrow {
     font-size: 20px;
-    margin-top: 3px;
+    margin-top: 4px;
     text-align: center;
     color: white;
     cursor: pointer;
@@ -95,9 +95,13 @@ a {
     border: 2px solid whitesmoke;
 }
 
+.link .Text {
+    text-align: center;
+}
 
 
 .icon-link {
+    margin-top: 4px;
     font-size: 20px;
 }
 
@@ -128,4 +132,16 @@ a {
     margin-top: 1rem;
     border-radius: 1rem;
     animation: muncul 300ms ease-in-out;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .link {
+        width: 90%;
+        margin-left: 0;
+        text-align: center;
+    }
 }
