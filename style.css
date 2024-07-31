@@ -66,8 +66,7 @@ a {
 
 
 .link {
-    margin-right: auto;
-    margin-left: auto;
+    margin-left: 30%;
     display: flex;
     justify-content: space-between;
     background-color: #31363F;
